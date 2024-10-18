@@ -270,4 +270,139 @@ h2 {
         font-size: 16px;
         line-height: 1.5;
     }
-    
+    /* Mobile Devices (up to 600px width) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .papers {
+        flex-direction: column;
+    }
+
+    .all {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .sir {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .text-section h1 {
+        font-size: 18px;
+    }
+}
+
+/* Tablets (601px to 900px width) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav a {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .papers {
+        flex-wrap: wrap;
+    }
+
+    .all {
+        width: 45%;
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .sir {
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .text-section h1 {
+        font-size: 20px;
+    }
+}
+
+/* Desktops and larger devices (901px and up) */
+@media only screen and (min-width: 901px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav a {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .papers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .all {
+        width: 300px;
+        margin: 15px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    .sir {
+        width: 750px;
+        height: auto;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-section h1 {
+        font-size: 24px;
+    }
+}
