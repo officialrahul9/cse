@@ -505,7 +505,7 @@ img {
     display: flex;
 
 }
-@media (max-width: 350px) {
+@media (min-width: 350px) {
     .m {
         /* Add styles specific for screens that are at least 350px wide */
         /* For example: */
